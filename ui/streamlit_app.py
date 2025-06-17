@@ -7,7 +7,12 @@ from pathlib import Path
 
 
 THIS_DIR   = Path(__file__).resolve().parent        
+<<<<<<< HEAD
 MODEL_PATH = 'models/heart_disease_pipeline.pkl'
+=======
+MODEL_PATH = MODEL_PATH = 'models/final_model.pkl'
+
+>>>>>>> 20449ad (Local changes before pulling)
 
 # Load the trained pipeline
 model = joblib.load(MODEL_PATH)
