@@ -7,7 +7,8 @@ from pathlib import Path
 
 
 THIS_DIR   = Path(__file__).resolve().parent        
-MODEL_PATH = THIS_DIR.parent / "models" / "heart_disease_pipeline.pkl"
+MODEL_PATH = MODEL_PATH = 'models/final_model.pkl'
+
 
 # Load the trained pipeline
 model = joblib.load(MODEL_PATH)

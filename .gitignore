@@ -19,5 +19,4 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # Models and logs
-*.pkl
 *.log
