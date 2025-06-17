@@ -1,9 +1,8 @@
-# ui/app.py
-import streamlit as st
+from pathlib import Path
+import streamlit as st 
 import pandas as pd
 import numpy as np
 import joblib
-from pathlib import Path
 
 
 THIS_DIR   = Path(__file__).resolve().parent        
