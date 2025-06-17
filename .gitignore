@@ -18,6 +18,5 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Models and logs
-*.pkl
+# logs
 *.log
