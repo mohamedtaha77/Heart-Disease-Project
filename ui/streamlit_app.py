@@ -9,7 +9,12 @@ THIS_DIR   = Path(__file__).resolve().parent
 MODEL_PATH = THIS_DIR.parent / "models" / "heart_disease_pipeline.pkl"
 
 # Load the trained pipeline
-model = joblib.load(MODEL_PATH)
+@st.cache_resource
+def load_model():
+    return joblib.load(MODEL_PATH)
+
+model = load_model()
+
 
 st.title("💓 Heart Disease Risk Classifier")
 st.markdown("Enter patient data to predict the heart disease class (0 to 4):")
