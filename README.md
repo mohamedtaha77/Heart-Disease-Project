@@ -19,34 +19,33 @@ This is a **Streamlit** web app that predicts heart disease severity (class 0–
 
 ## 📁 File Structure
 
+```
 Heart_Disease_Project/
 │
+├── .devcontainer/
+│   └── devcontainer.json
 ├── data/
-│ └── heart_disease.csv
-├── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_pca_analysis.ipynb
-│ ├── 03_feature_selection.ipynb
-│ ├── 04_supervised_learning.ipynb
-│ ├── 05_unsupervised_learning.ipynb
-│ └── 06_hyperparameter_tuning.ipynb
+│   └── heart_disease.csv
 ├── models/
-│ └── heart_disease_pipeline.pkl
-├── ui/
-│ └── streamlit_app.py
+│   └── heart_disease_pipeline.pkl
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_pca_analysis.ipynb
+│   ├── 03_feature_selection.ipynb
+│   ├── 04_supervised_learning.ipynb
+│   ├── 05_unsupervised_learning.ipynb
+│   └── 06_hyperparameter_tuning.ipynb
 ├── results/
-│ └── evaluation_metrics.txt
-├── deployment/
-│ └── ngrok_setup.txt ← (deprecated)
-│
-├── train_and_export_pipeline.py
-├── requirements.txt
-├── README.md
+│   └── evaluation_metrics.txt
+├── ui/
+│   └── streamlit_app.py
 ├── .gitignore
+├── README.md
+├── requirements.txt
+└── train_and_export_pipeline.py
+```
 
-yaml
-Copy
-Edit
+
 
 ---
 
