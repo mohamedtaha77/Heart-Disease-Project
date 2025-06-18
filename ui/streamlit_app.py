@@ -1,9 +1,10 @@
 #main app
+import joblib
 from pathlib import Path
 import streamlit as st 
 import pandas as pd
 import numpy as np
-import joblib
+
 
 
 THIS_DIR   = Path(__file__).resolve().parent        
