@@ -31,7 +31,7 @@ pipeline = Pipeline([
 
 pipeline.fit(X, y)
 
-# Save model to correct path
+# Save model 
 joblib.dump(pipeline, "models/heart_disease_pipeline.pkl")
 
 print("✅ Local model saved for deployment.")
